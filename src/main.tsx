@@ -2,11 +2,11 @@ import { render } from "react-dom";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import FirstPage from "./Pages/firstPage";
 import SecondPage from "./Pages/secondPage";
-import ModuleOne from "./Pages/Modules.tsx/ModuleOne";
-import ModuleTwo from "./Pages/Modules.tsx/ModuleTwo";
-import ModuleThree from "./Pages/Modules.tsx/ModuleThree";
-import ModuleFour from "./Pages/Modules.tsx/ModuleFour";
-import ModuleFive from "./Pages/Modules.tsx/ModuleFive";
+import ModuleOne from "./Pages/Modules/ModuleOne";
+import ModuleTwo from "./Pages/Modules/ModuleTwo";
+import ModuleThree from "./Pages/Modules/ModuleThree";
+import ModuleFour from "./Pages/Modules/ModuleFour";
+import ModuleFive from "./Pages/Modules/ModuleFive";
 import SearchBar from "./Pages/search/App1";
 
 
