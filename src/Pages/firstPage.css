@@ -7,7 +7,7 @@ body{
   
   .main-container{
     
-    background-image: url("src\Images\woman2.png");
+    background-image: url("../Images/woman2.png");
     background-repeat: no-repeat;
     background-size:contain;
     background-position: 03rem;
