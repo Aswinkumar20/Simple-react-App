@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Routes, Route, Outlet, Link, Navigate } from "react-router-dom";
-import './firstpage.css';
+import './firstPage.css'; 
     
 
 export default function App() {
