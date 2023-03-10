@@ -51,7 +51,7 @@ export default function Update() {
           tabIndex === 1 && (
             <div className="inner-bottom-content">
               <div className="image">
-                <img src="src\Images\seven.jpg" alt="image" />
+                <img src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE52gXw?ver=77c6&q=90&m=2&h=768&w=1024&b=%23FFFFFFFF&aim=true" alt="image" />
               </div>
         
               <div className="right-content">
@@ -65,7 +65,7 @@ export default function Update() {
           tabIndex === 2 && (
             <div className="inner-bottom-content">
               <div className="image">
-                <img src="src\Images\2441906.jpg" alt="image" />
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP6ZIIoClZSYHfMtkFTW30IVK-hsNDqUp-MQ&usqp=CAU" alt="image" />
               </div>
         
               <div className="right-content">
@@ -80,7 +80,7 @@ export default function Update() {
           tabIndex === 3 && (
             <div className="inner-bottom-content"> 
               <div className="image">
-                <img src="src\Images\twkjo.jpg" alt="image" />
+                <img src="https://blog.ipleaders.in/wp-content/uploads/2021/11/Scale-of-justice-lawyer-business-law.png" alt="image" />
               </div>
         
               <div className="right-content">

@@ -50,7 +50,7 @@ export default function Update() {
           tabIndex === 1 && (
             <div className="inner-bottom-content">
               <div className="image">
-                <img src="src\Images\five.jpg" alt="image" />
+                <img src="https://burst.shopifycdn.com/photos/getting-business-finances-in-order.jpg?width=1200&format=pjpg&exif=1&iptc=1" alt="image" />
               </div>
         
               <div className="right-content">
@@ -64,7 +64,7 @@ export default function Update() {
           tabIndex === 2 && (
             <div className="inner-bottom-content">
               <div className="image">
-                <img src="src\Images\seven.jpg" alt="image" />
+                <img src="https://www.concordnow.com/wp-content/uploads/2020/04/the-case-for-contracts-in-7-reasons-jpg.webp" alt="image" />
               </div>
         
               <div className="right-content">
@@ -79,7 +79,7 @@ export default function Update() {
           tabIndex === 3 && (
             <div className="inner-bottom-content">
               <div className="image">
-                <img src="src\Images\two.jpg" alt="image" />
+                <img src="https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921__340.jpg" alt="image" />
               </div>
         
               <div className="right-content">

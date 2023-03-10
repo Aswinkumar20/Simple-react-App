@@ -26,7 +26,7 @@ export default function App(){
           <div className="inner-child-container1">
 
             <div className="image-container1">
-              <img src="src\Images\two.jpg" alt="image" />
+              <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/3UDPzbKE0AU7eRkzcNkvXv/b30e89389088b34bde095411441f6cde/GettyImages-1363698631__1_.jpg?w=1500&h=680&q=60&fit=fill&f=faces&fm=jpg&fl=progressive&auto=format%2Ccompress&dpr=1&w=1000&h=" alt="image" />
             </div>
 
             <div className="inner-content-container1">
@@ -39,7 +39,7 @@ export default function App(){
           <div className="inner-child-container1">
 
             <div className="image-container1">
-              <img src="src\Images\woman1.jpg" alt="image" />
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfJhiNc27ijzvHwe8JqcQYWLSXFBVb7gqV84DM_b2kQ-Bz3pznic6iqWx7e9I0hqqX_xs&usqp=CAU" alt="image" />
             </div>
 
             <div className="inner-content-container1">
@@ -52,7 +52,7 @@ export default function App(){
           <div className="inner-child-container1">
 
             <div className="image-container1">
-              <img src="src\Images\four.jpg" alt="image" />
+              <img src="https://assets.entrepreneur.com/content/3x2/2000/20171002173141-GettyImages-489029936.jpeg" alt="image" />
             </div>
 
             <div className="inner-content-container1">

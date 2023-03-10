@@ -51,7 +51,7 @@ export default function Update() {
           tabIndex === 1 && (
             <div className="inner-bottom-content">
               <div className="image">
-                <img src="src\Images\three.jpg" alt="image" />
+                <img src="https://m.economictimes.com/thumb/msid-61317633,width-1200,height-900,resizemode-4,imgsize-81068/artificial-intelligence-system-can-turn-low-resolution-images-into-hd-versions.jpg" alt="image" />
               </div>
         
               <div className="right-content">
@@ -65,7 +65,7 @@ export default function Update() {
           tabIndex === 2 && (
             <div className="inner-bottom-content">
               <div className="image">
-                <img src="src\Images\woman1.jpg" alt="image" />
+                <img src="https://shrm-res.cloudinary.com/image/upload/c_crop,h_2175,w_3869,x_0,y_0/w_auto:100,w_1200,q_35,f_auto/v1/Tools%20and%20Samples/iStock-1135748304_f5kkbo.jpg" alt="image" />
               </div>
         
               <div className="right-content">
@@ -80,7 +80,7 @@ export default function Update() {
           tabIndex === 3 && (
             <div className="inner-bottom-content">
               <div className="image">
-                <img src="src\Images\woman3.jpg" alt="image" />
+                <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/What_Is_Business_Analysis_And_Why_Every_Company_Needs_A_Business_Analyst.jpg" alt="image" />
               </div>
         
               <div className="right-content">

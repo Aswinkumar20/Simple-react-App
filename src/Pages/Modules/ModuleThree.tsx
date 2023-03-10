@@ -51,7 +51,7 @@ export default function Update() {
           tabIndex === 1 && (
             <div className="inner-bottom-content">
               <div className="image">
-                <img src="src\Images\five.jpg" alt="image" />
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_zv_3oufxJDjJb9mhgo9skvCVFYwQmJ5a38eh0wQsH-7ASb8sazGNBdUAxNobeU-11eI&usqp=CAU" alt="image" />
               </div>
         
               <div className="right-content">
@@ -65,7 +65,7 @@ export default function Update() {
           tabIndex === 2 && (
             <div className="inner-bottom-content">
               <div className="image">
-                <img src="src\Images\six.jpg" alt="image" />
+                <img src="https://www.primeum.com/hubfs/D%C3%A9finition-performance-commerciale.jpg   " alt="image" />
               </div>
         
               <div className="right-content">
@@ -80,7 +80,7 @@ export default function Update() {
           tabIndex === 3 && (
             <div className="inner-bottom-content">
               <div className="image">
-                <img src="src\Images\seven.jpg" alt="image" />
+                <img src="https://www.thebalancemoney.com/thmb/QwUIfnT82yrLj0HQv1H_3Jo_W8A=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/two-young-women-having-a-discussion-in-a-business-607477463-4c806dd0eb2b45c39c2ba7af6b558903.jpg" alt="image" />
               </div>
         
               <div className="right-content">
