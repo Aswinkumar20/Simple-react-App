@@ -1,0 +1,170 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+  }
+  
+  .main-container{
+    background-image: url("./src/Images/woman2.png");
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: 03rem;
+    height: 100vh;
+  }
+  
+  .inner-right-container{
+    /* background-color: red; */
+    
+    /* position: relative;  */
+    margin-left: 62vw;
+    margin-right: 05vw;
+    padding: 0px 22px;
+    padding-top: 34px;
+  }
+  
+  .inner-right-container h1{
+    color: #0D4F86;
+    font-size: 3rem;
+  }
+  
+  
+  .inner-right-container p{
+    line-height: 2.1rem;
+    color: #256090;
+    text-align: justify;
+    margin-bottom: 07vh;
+  }
+  
+  .main-container button{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 2.3rem;
+    border-color: white;
+    background-color: #0D4F86;
+    color: #FFFFFF;
+    padding: 15px;
+    letter-spacing: 1.2pt;
+    padding-left: 30px;
+    font-size: 22px;
+  }
+  
+  .inner-right-container a{
+    text-decoration: none;
+  }
+  .main-page-button > .button-right-arrow{
+    margin-left: 70%;
+    font-size: 28px;
+  }
+  
+  /* 320px — 480px: Mobile devices
+  481px — 768px: iPads, Tablets
+  769px — 1024px: Small screens, laptops
+  1025px — 1200px: Desktops, large screens
+  1201px and more —  Extra large screens, TV */
+  
+  @media (max-width: 319px){
+    body{
+      background-color: #FFFFFF;
+    }
+  
+    .inner-right-container{
+      display: none;
+    }
+  
+    body ::after{
+      content: "Please use higher Resolution device";
+      font-size: 2rem;
+      display: block;
+      margin: 0 auto;
+      text-align: center;
+      text-transform: capitalize;
+    }
+  }
+
+  /* for Mobile devices */
+  
+  @media(min-width : 320px) and (max-width: 480px){
+    body{
+      background-color: #FFFFFF;
+    }
+  
+    .inner-right-container{
+      margin-left: 0vw;
+      margin-right: 0vw;
+      padding-top: 10px;
+      
+    }
+  }
+  
+
+  /* for Tablet */
+  
+  @media(min-width : 481px) and (max-width: 768px){
+    body{
+      background-color: #FFFFFF;
+    }
+  
+    .inner-right-container{
+      margin-left: 04vw;
+      margin-right: 04vw;
+      padding-top: 10px;
+      
+    }
+    
+  }
+
+
+  /* for laptop */
+  
+  @media(min-width : 769px) and (max-width: 1024px){
+    body{
+      background-color: #FFFFFF;
+      
+    }
+  
+    .inner-right-container{
+      margin-left: 50vw;
+      margin-right: 05vw; 
+    }
+  }
+
+  /* for large screen */
+  
+  @media(min-width : 1025px) and (max-width: 1200px){
+    body{
+      background-color:#FFFFFF;
+    }
+  
+    .inner-right-container{
+      margin-left: 45vw;
+      margin-right: 10vw;
+      padding: 0px 42px;
+      padding-top: 20px;
+      position: relative;
+      top: 50px;
+      
+    }
+  }
+
+
+  /* for extra larger screen */
+  
+  @media(min-width : 1201px){
+    body{
+      background-color:#FFFFFF;
+    }
+  
+    .inner-right-container{
+      margin-left:60vw;
+      margin-right:05vw;
+      padding: 0px 22px;
+      position: relative;
+      top: 50px;
+      
+    }
+  
+    
+  }

@@ -1,0 +1,159 @@
+body{
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main-container{
+  height: 100vh;
+}
+
+.modules-right-container{
+    /* background-color: white; */
+    display: block;
+    float: right;
+    margin-right: 29px;
+    margin-top: 30px;
+    width: 35%;
+  }
+  .modules-right-container .home{
+    color: grey;
+    font-size: 30px;
+  }
+  .modules-right-container .types{
+    padding-right: 50px;
+  }
+  .modules-right-container li{
+    padding-left: 05px;
+    list-style: none;
+    font-size: 1.5rem;
+    padding: 16px;
+    color: #0D4F86;
+  }
+  
+  .modules-right-container hr{
+    border:px black solid;
+  }
+  
+  .modules-right-container .home-icon{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 30px;
+  }
+  
+  
+  .modules-right-container .module-types{
+    margin-bottom: 13%;
+  }
+  
+  .module-types a{
+    text-decoration: none;
+  }
+  
+  
+  .modules-right-container button{
+    display: flex;
+    margin : 0 auto;
+    justify-content: space-around;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 1.7rem;
+    border-color: white;
+    background-color: #0D4F86;
+    color: #FFFFFF;
+    padding: 15px;
+    letter-spacing: 1.2pt;
+    padding-left: 30px;
+    font-size: 29px;
+    font-weight: 200;
+    text-align: left;
+  }
+  
+  .modules-right-container > button > span{
+    float: right;
+  }
+  
+  
+  
+  
+  @media (max-width: 319px){
+    body{
+      background-color: #FFFFFF;
+    }
+  
+    .main-container{
+      display: none;
+    }
+  
+    body ::after{
+      content: "Please use higher Resolution device";
+      font-size: 2rem;
+      display: block;
+      margin: 0 auto;
+      text-align: center;
+      text-transform: capitalize;
+    }
+  }
+
+  /* for Mobile devices */
+  
+  @media(min-width : 320px) and (max-width: 480px){
+    body{
+      background-color: #FFFFFF;
+    }
+
+    .main-container{
+      background-image: none;
+    }
+
+    .modules-right-container{
+      display: block;
+      margin: auto 0;
+      margin-right: 29px;
+      margin-top: 30px;
+      width: 85%;
+    }
+  
+  }
+  
+
+  /* for Tablet */
+  
+  @media(min-width : 481px) and (max-width: 768px){
+    body{
+      background-color: #FFFFFF;
+    }
+
+    
+  }
+
+
+  /* for laptop */
+  
+  @media(min-width : 769px) and (max-width: 1024px){
+    body{
+      background-color: #FFFFFF;
+      
+    }
+
+  }
+
+  /* for large screen */
+  
+  @media(min-width : 1025px) and (max-width: 1200px){
+    body{
+      background-color:#FFFFFF;
+    }
+
+
+  }
+
+
+  /* for extra large screen */
+  
+  @media(min-width : 1201px){
+    body{
+      background-color:#FFFFFF;
+    }
+    
+  }
