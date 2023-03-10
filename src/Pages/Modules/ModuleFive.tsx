@@ -51,7 +51,7 @@ export default function Update() {
           tabIndex === 1 && (
             <div className="inner-bottom-content">
               <div className="image">
-                <img src="src\Images\2441906.jpg" alt="image" />
+                <img src="src/Images/2441906.jpg" alt="image" />
               </div>
         
               <div className="right-content">
